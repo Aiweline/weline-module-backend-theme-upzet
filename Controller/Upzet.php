@@ -27,6 +27,7 @@ class Upzet extends \Weline\Framework\App\Controller\BackendController
 
     function help()
     {
-        return $this->fetch();
+        $template = $this->request->getRule('template');
+        return $this->fetch('help/'.$template);
     }
 }

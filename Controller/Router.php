@@ -21,12 +21,15 @@ class Router implements \Weline\Framework\Router\RouterInterface
     public static function process(string &$path, array &$rule)
     {
         $flag = '/upzet';
-        if (str_contains($path, $flag) || str_contains($path, strtolower($flag))) {
-            $path_arr      = explode($flag, $path);
-            $function_path = array_pop($path_arr);
-            if ($function_path = trim($function_path, '/')) {
-                $path             = $flag;
-                $rule['template'] = $function_path;
+        if (str_contains(strtolower($path), $flag)) {
+            # path处理
+            if (str_ends_with($path, '.html')) {
+                $path_arr         = explode('/', $path);
+                $template         = array_pop($path_arr);
+                $rule['template'] = $template;
+                $path             = implode('/', $path_arr);
+            } else {
+                $rule['template'] = 'index.html';
             }
         }
     }

@@ -10,5 +10,5 @@ declare(strict_types=1);
  * 日期：2023/7/15 10:15:46
  */
 return [
-    'router' => 'backend/template'
+    'router' => 'admin/template'
 ];
