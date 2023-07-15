@@ -7,7 +7,7 @@ WelineFramework 后端模块
 依赖WelineFramework
 
 #### 安装教程
-composer require weline/
+composer require weline/module-backend-theme-upzet
 
 #### 使用说明
 
