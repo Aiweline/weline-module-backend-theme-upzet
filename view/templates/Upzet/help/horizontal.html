@@ -177,7 +177,7 @@
                                     <pre>&lt;body data-layout="horizontal" data-topbar="colored"&gt;
 </pre>
                                     And in <code>partials/menu.html</code> <br>
-                                    <pre>\@\include(&apos;horizontal.html&apos;)</pre>
+                                    <pre><php> echo addslashes('@\include(\'horizontal.html\')');</php></pre>
                                     It will set horizontal layouts in all the pages.
 
                                 </dd>
@@ -267,7 +267,7 @@
 <script src="@static(Upzet/help/assets/libs/simplebar/simplebar.min.js)"></script>
 <script src="@static(Upzet/help/assets/libs/node-waves/waves.min.js)"></script>
 
-<script src="@static(Upzet/help/assets/js/origin-app.js)"></script>
+<script src="@static(Upzet/help/assets/js/app.js)"></script>
 
 </body>
 

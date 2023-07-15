@@ -3621,12 +3621,12 @@ Time
 
  You should manually download and include select2 distributive:
 
- <link href="select2/select2.css" rel="stylesheet" type="text/css"></link>
+ <link href="@static(select2/select2.css)" rel="stylesheet" type="text/css"></link>
  <script src="select2/select2.js"></script>
 
  To make it **bootstrap-styled** you can use css from [here](https://github.com/t0m/select2-bootstrap-css):
 
- <link href="select2-bootstrap.css" rel="stylesheet" type="text/css"></link>
+ <link href="@static(select2-bootstrap.css)" rel="stylesheet" type="text/css"></link>
 
  **Note:** currently `autotext` feature does not work for select2 with `ajax` remote source.
  You need initially put both `data-value` and element's text youself:
@@ -6540,7 +6540,7 @@ Editableform based on Twitter Bootstrap 3
  Based on [smalot bootstrap-datetimepicker plugin](https://github.com/smalot/bootstrap-datetimepicker).
  Before usage you should manually include dependent js and css:
 
- <link href="css/datetimepicker.css" rel="stylesheet" type="text/css"></link>
+ <link href="@static(css/datetimepicker.css)" rel="stylesheet" type="text/css"></link>
  <script src="js/bootstrap-datetimepicker.js"></script>
 
  For **i18n** you should include js file from here: https://github.com/smalot/bootstrap-datetimepicker/tree/master/js/locales
