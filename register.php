@@ -13,7 +13,7 @@ use Weline\Framework\Register\Register;
 
 Register::register(
     Register::MODULE,
-    'Weline_AdminThemeUpzet',
+    'Weline_BackendThemeUpzet',
     __DIR__,
     '1.0.0',
     '框架后台Upzet模板'
