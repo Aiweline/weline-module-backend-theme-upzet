@@ -10,7 +10,7 @@ declare(strict_types=1);
  * 日期：2023/7/15 11:42:59
  */
 
-namespace Weline\AdminThemeUpzet\Controller;
+namespace Weline\BackendThemeUpzet\Controller;
 
 class Upzet extends \Weline\Framework\App\Controller\BackendController
 {

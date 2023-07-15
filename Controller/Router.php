@@ -10,7 +10,7 @@ declare(strict_types=1);
  * 日期：2023/7/15 10:13:58
  */
 
-namespace Weline\AdminThemeUpzet\Controller;
+namespace Weline\BackendThemeUpzet\Controller;
 
 class Router implements \Weline\Framework\Router\RouterInterface
 {
